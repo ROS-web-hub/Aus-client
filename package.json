@@ -1,0 +1,27 @@
+{
+  "name": "bsc_snipesz_v0.2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "clear": "node clear.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "clear": "^0.1.0",
+    "ethers": "^5.4.6",
+    "node-localstorage": "^2.2.1",
+    "pkg": "^5.4.0",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "eslint": "^8.4.0"
+  }
+}
